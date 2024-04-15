@@ -8,6 +8,7 @@ using GaleriaDeRecursos2.Views.Cels;
 using GaleriaDeRecursos2.Views.Components;
 using GaleriaDeRecursos2.Views.Forms;
 using GaleriaDeRecursos2.Views.Layouts;
+using GaleriaDeRecursos2.Views.Lists;
 using GaleriaDeRecursos2.Views.Visuals;
 
 namespace GaleriaDeRecursos2.Repositories
@@ -194,6 +195,17 @@ namespace GaleriaDeRecursos2.Repositories
                         Description = "cria uma celula com design perosnalizado",
                         Page = typeof(ViewCellPage)
                     }
+                }
+            });
+            categories.Add(new Category
+            {
+                Name = "Listas e Coleções",
+                Components = new List<Component> {
+                    new Component {
+                        Title = "TableView",
+                        Description = "apresenta celulas em linhas separadas e permite agrupar por seção",
+                        Page = typeof(TableViewPage)
+                    },
                 }
             });
             return categories;
