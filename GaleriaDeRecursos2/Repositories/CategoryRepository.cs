@@ -189,6 +189,11 @@ namespace GaleriaDeRecursos2.Repositories
                         Description = "Apresenta um campo de texto com label",
                         Page = typeof(EntryCellPage)
                     },
+                    new Component {
+                        Title = "ViewCell",
+                        Description = "cria uma celula com design perosnalizado",
+                        Page = typeof(ViewCellPage)
+                    }
                 }
             });
             return categories;
