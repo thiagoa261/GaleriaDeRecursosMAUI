@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaDeRecursos2.Views.Forms.SliderPage"
+             Title="SliderPage">
+    <VerticalStackLayout Padding="30">
+        <Slider
+            Value="50"
+            Minimum="0"
+            Maximum="100"
+            MinimumTrackColor="Red"
+            MaximumTrackColor="Green"
+            ThumbColor="Yellow"
+            
+            DragStarted="Slider_DragStarted"
+            DragCompleted="Slider_DragCompleted"
+            ValueChanged="Slider_ValueChanged"
+            />
+
+        <Label x:Name="lblStatus"/>
+        <Label x:Name="lblValue"/>
+
+    </VerticalStackLayout>
+</ContentPage>

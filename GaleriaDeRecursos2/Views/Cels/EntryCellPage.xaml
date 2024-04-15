@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GaleriaDeRecursos2.Views.Cels.EntryCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="EntryCellPage">
+    <VerticalStackLayout>
+
+        <TableView>
+
+            <TableSection Title="Cadastro de Produtos">
+
+                <EntryCell
+                    HorizontalTextAlignment="Center"
+                    Keyboard="Numeric"
+                    Label="Produto 1"
+                    Placeholder="codigo de barras" />
+
+                <EntryCell Label="Produto 2" />
+
+                <EntryCell Label="Produto 3" />
+
+                <EntryCell Label="Produto 4" />
+
+            </TableSection>
+
+        </TableView>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,10 @@
+﻿
+
+
+Para otimizar o armazenamento e download,
+este projeto/solução foi limpo antes de ser zipado.
+
+Clique com o botão direito no projeto e selecione a opção
+"Recompilar".
+
+#paz

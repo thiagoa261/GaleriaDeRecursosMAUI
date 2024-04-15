@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaDeRecursos2.Views.Layouts.AbsoluteLayoutPage"
+             Title="AbsoluteLayoutPage">
+
+    <AbsoluteLayout>
+        <Label Text="IFSP Catanduva"
+               AbsoluteLayout.LayoutBounds="100,0,150,50"
+               BackgroundColor="LightBlue"
+               />       
+        
+        <Button Text="Clica aqui"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,60"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                />
+        
+        
+        
+        <BoxView Color="Red" WidthRequest="50"
+                 HeightRequest="50"
+                 AbsoluteLayout.LayoutBounds="125,200"                 
+                 />
+        <BoxView Color="Green" WidthRequest="50"
+         HeightRequest="50"
+         AbsoluteLayout.LayoutBounds="150,225"                 
+         />
+        <BoxView Color="Blue" WidthRequest="50"
+         HeightRequest="50"
+         AbsoluteLayout.LayoutBounds="175,250"                 
+         />
+        <BoxView Color="Purple" WidthRequest="50"
+         HeightRequest="50"
+         AbsoluteLayout.LayoutBounds="200,275"                 
+         />
+        <BoxView Color="Tomato" WidthRequest="50"
+         HeightRequest="50"
+         AbsoluteLayout.LayoutBounds="225,300"                 
+         />
+        
+        
+    </AbsoluteLayout>
+    
+</ContentPage>

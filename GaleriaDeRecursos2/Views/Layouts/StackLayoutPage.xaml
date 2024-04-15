@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaDeRecursos2.Views.Layouts.StackLayoutPage"
+             Title="StackLayoutPage">
+
+    <StackLayout Orientation="Vertical" Spacing="10">
+        <Label Text="IFSP"/>
+        <Button Text="IFSP Catanduva" VerticalOptions="StartAndExpand"
+                WidthRequest="200" HeightRequest="100"/>        
+        <Button Text="IFSP Catanduva" />
+
+
+        <StackLayout Orientation="Horizontal" Spacing="10" >
+            <Button Text="Btn1" HorizontalOptions="Start" CornerRadius="5"/>
+            <Button Text="Btn1" HorizontalOptions="Start"/>
+        </StackLayout>
+                
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaDeRecursos2.Views.Components.ButtonPage"
+             Title="ButtonPage">
+    <VerticalStackLayout Padding="10">
+        <Button 
+            Text="Clique aqui"
+            TextColor="Blue"
+            BackgroundColor="#ffffff"
+            HorizontalOptions="Center"    
+            CornerRadius="20"  
+            BorderColor="Blue"
+
+            />
+
+        <Button 
+            ImageSource="dotnet_bot.png" 
+            Text="Clique aqui"
+            ContentLayout="Left, 10"            
+            />
+    </VerticalStackLayout>
+</ContentPage>
