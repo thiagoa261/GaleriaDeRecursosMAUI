@@ -1,4 +1,4 @@
-namespace GaleriaDeRecursos2.Views.Cels;
+namespace GaleriaDeRecursos2.Views.Cells;
 
 public partial class SwitchCellPage : ContentPage
 {

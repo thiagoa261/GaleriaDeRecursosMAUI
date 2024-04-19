@@ -102,19 +102,19 @@
 	  <MauiXaml Update="AppFlyout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Cels\CelText.xaml">
+	  <MauiXaml Update="Views\Cells\EntryCellPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Cels\EntryCellPage.xaml">
+	  <MauiXaml Update="Views\Cells\ImageCellPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Cels\ImageCel.xaml">
+	  <MauiXaml Update="Views\Cells\SwitchCellPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Cels\SwitchCellPage.xaml">
+	  <MauiXaml Update="Views\Cells\TextCellPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Cels\ViewCellPage.xaml">
+	  <MauiXaml Update="Views\Cells\ViewCellPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Components\BoxViewPage.xaml">

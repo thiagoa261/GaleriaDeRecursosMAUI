@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaDeRecursos2.Views.Cells.ViewCellPage"
+             Title="ViewCellPage">
+    <VerticalStackLayout>
+        <TableView>
+            <TableSection Title="Colaboradores">
+                <ViewCell>
+                    
+                    <Grid ColumnDefinitions="70, *">
+                        <Image Source="dotnet_bot.png"
+                               Margin="15"/>
+
+                        <VerticalStackLayout Grid.Column="1">
+                        <Label Text="João da Silva"
+                            Margin="12,0,0,0"  
+                               FontSize="25"
+                        />
+                        <Label Text="Presidente (CEO)"
+                            Margin="12,0,0,0"                           
+                        />
+                        </VerticalStackLayout>
+                    </Grid>
+                </ViewCell>
+                
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>

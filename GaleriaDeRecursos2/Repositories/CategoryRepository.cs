@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GaleriaDeRecursos2.Models;
-using GaleriaDeRecursos2.Views.Cels;
+using GaleriaDeRecursos2.Views.Cells;
 using GaleriaDeRecursos2.Views.Components;
 using GaleriaDeRecursos2.Views.Forms;
 using GaleriaDeRecursos2.Views.Layouts;
@@ -172,27 +172,29 @@ namespace GaleriaDeRecursos2.Repositories
                 Components = new List<Component> {
                     new Component {
                         Title = "TextCell",
-                        Description = "Apresenta até dois labels (titulo + descrição)",
-                        Page = typeof(CelText)
+                        Description = "Apresenta até dois labels onde " +
+                        "uma é o título e a outra, a descrição",
+                        Page = typeof(TextCellPage)
                     },
                     new Component {
                         Title = "ImageCell",
-                        Description = "Apresenta uma imagem com dois labels",
-                        Page = typeof(ImageCel)
+                        Description = "Apresenta uma imagem com dois labels.",
+                        Page = typeof(ImageCellPage)
                     },
                     new Component {
                         Title = "SwitchCell",
-                        Description = "Apresenta um switch junto a um label",
+                        Description = "Apresenta uma switch junto a um label.",
                         Page = typeof(SwitchCellPage)
                     },
                     new Component {
                         Title = "EntryCell",
-                        Description = "Apresenta um campo de texto com label",
+                        Description = "Apresenta um entry junto a um label.",
                         Page = typeof(EntryCellPage)
                     },
                     new Component {
                         Title = "ViewCell",
-                        Description = "cria uma celula com design perosnalizado",
+                        Description = "Possibilita criar um célula com layout" +
+                        "personalizado.",
                         Page = typeof(ViewCellPage)
                     }
                 }
@@ -203,9 +205,10 @@ namespace GaleriaDeRecursos2.Repositories
                 Components = new List<Component> {
                     new Component {
                         Title = "TableView",
-                        Description = "apresenta celulas em linhas separadas e permite agrupar por seção",
+                        Description = "Apresenta células em linhas separadas " +
+                        "e permite agrupamento por seção.",
                         Page = typeof(TableViewPage)
-                    },
+                    }
                 }
             });
             return categories;
